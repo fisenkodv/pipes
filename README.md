@@ -8,4 +8,5 @@ var result = Pipeline
         .Pipe(x => Math.Sqrt(x))
         .Pipe(x => x * 5)
         .Execute();
+Console.WriteLine(result);// 20
 ```
